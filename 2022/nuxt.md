@@ -2,7 +2,7 @@
 
 [【公式】 Nuxt.js](https://nuxtjs.org/)
 
-1. workspaceかどこか任意の場所をVisual Studio Codeで開く  
+1. どこか任意の場所をVisual Studio Codeで開く(trainingディレクトリとか作ると◎)  
 
 2. ターミナルを開き、以下、コマンドを実行
 
@@ -43,7 +43,7 @@ npx create-nuxt-app [プロジェクト名]
 ? Development tools:
 →利用する開発ツール jsconfig.jsonを選択
 
-? What is your GitHub username? 
+? What is your GitHub username?
 →GitHubのユーザー名
 
 ? Version control system:
