@@ -35,7 +35,7 @@ background-image: url(~/assets/images/hoge.png);
 
 ```
 <template>
-  <Tutorial/> ←これを削除して、ココにつらつら書いていきましょう！
+  <Tutorial/>
 </template>
 
 <script>
@@ -43,6 +43,32 @@ export default {
   name: 'IndexPage'
 }
 </script>
+```
+
+↓
+
+```
+<template>
+  <main>
+    〜ココに書いていく〜
+  </main>
+</template>
+```
+
+* ヘッダーとフッター追加
+layoutsディレクトリ作成し、default.vue作成
+`layouts/default.vue`
+https://nuxtjs.org/ja/docs/directory-structure/layouts/
+
+```
+<template>
+  <div>
+    
+    <Nuxt />
+    <TheFooter />
+  </div>
+</template>
+
 ```
 
 * コーディングルール  
