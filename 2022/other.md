@@ -26,4 +26,23 @@ about_icon_2.png
 background-image: url(~/assets/images/hoge.png);
 ```
 
+***
+
 ## HTML
+* コーディング場所  
+以下ファイルにコーディングします！  
+`pages/index.vue`
+
+```
+<template>
+  <Tutorial/> ←これを削除して、ココにつらつら書いていきましょう！
+</template>
+
+<script>
+export default {
+  name: 'IndexPage'
+}
+</script>
+```
+
+* コーディングルール  
